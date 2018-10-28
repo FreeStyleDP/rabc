@@ -1,0 +1,13 @@
+server:
+  servlet:
+    context-path: /rabc #url的前缀
+    
+spring:
+  profiles:
+    active: dev
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://locoalhost:3306/rabc
+    username: root
+    password: root
+
