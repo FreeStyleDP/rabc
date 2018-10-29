@@ -1,8 +1,7 @@
-server:
-  port: 8080
-  servlet:
-    context-path: /rabc #url的前缀
-    
+spring:
+  thymeleaf:
+    cache: false #关闭缓存，及时刷新
+
 # 自定义配置属性
 cupSize: 32
 age: 18
