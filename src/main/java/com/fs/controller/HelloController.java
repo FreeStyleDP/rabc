@@ -27,10 +27,11 @@ public class HelloController {
 	private Persion persion;
 	
 	@RequestMapping("/hello1")
+	@ResponseBody
 	public String say() {
 //		return "hello world";
 //		return persion.toString();
-		return "index";
+		return persion.toString();
 	}
 	
 //	安全起见还是标明请求方式
